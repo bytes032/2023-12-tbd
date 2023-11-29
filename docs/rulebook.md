@@ -30,9 +30,8 @@ For this audit, duplicates are going to be considered valid submissions.
 Rewards for a given bug are split with 80% going to the primary finder and the remaining 20% being equally split among all other finders (Duplicates).
 
 Example:
-A critical vulnerability is found. The primary finder gets $2800. $700 is shared between duplicates. 
-
-If you are the only duplicate, you get $700. If there are 20 duplicates, you get $35.
+- A critical vulnerability is found. The primary finder gets $2800. $700 is shared between duplicates. 
+- If you are the only duplicate, you get $700. If there are 20 duplicates, you get $35.
 
 As long as the impact is clear there's no need to hyper-optimize a POC. 
 
@@ -45,8 +44,6 @@ For example, if you submit a clearly valid Critical bug, and the next day someon
 The findings are duplicates if they share the same root cause. 
 
 More specifically, if fixing the Root Cause (in a reasonable manner) would cause the finding to no longer be exploitable, then the findings are duplicates.
-
-Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the Submission Chosen for Report.
 
 **Speculation on future code**
 
